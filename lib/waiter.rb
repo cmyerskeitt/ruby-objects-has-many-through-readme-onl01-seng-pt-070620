@@ -16,10 +16,10 @@ class Waiter
     Meal.new(self,customer,total,tip)
   end 
     
-    
-  #   def new_meal(waiter,total,tip=0)
-  #   Meal.new(waiter,self,total,tip)
-  # end 
+  def meals 
+    Meal.all.select {|meal| meal.waiter == self }
+  end
+
   
   # def meals 
   #   Meal.all.select { |meal| meal.customer == self }
