@@ -22,6 +22,6 @@ class Waiter
 
  
   def best_tipper
-    
+    Customer.all.select {|customer| customer.me
   end 
 end
