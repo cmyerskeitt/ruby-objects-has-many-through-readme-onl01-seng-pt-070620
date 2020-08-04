@@ -12,5 +12,5 @@ class Waiter
     @@all
   end 
   
-  def 
+  def new_meal
 end
