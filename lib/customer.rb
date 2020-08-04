@@ -2,7 +2,7 @@ class Customer
   
   @@all=[]
   
-  attr_accessor :name, :age :waiter 
+  attr_accessor :name, :age :waiter :meal
   def initialize(name, age)
     @name= name 
     @age= age 
